@@ -20,7 +20,7 @@
 </head>
 <body>
 DEN HEMMELIGE SIDE!
-Velkommen! <%= user.getUsername() %>
+Velkommen! <%= user!=null ?user.getUsername():"" %>
 <form method="post" action="logout.jsp">
 <button type="submit" name="logout" value="logout">Logout</button>
 </form>
