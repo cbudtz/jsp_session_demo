@@ -1,4 +1,4 @@
-<%@ page import="LoginController.UserController" %>
+<%@ page import="business.UserController" %>
 <%@ page import="data.User" %><%--
   Created by IntelliJ IDEA.
   User: chbu

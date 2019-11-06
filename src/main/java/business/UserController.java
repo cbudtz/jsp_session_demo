@@ -1,4 +1,4 @@
-package LoginController;
+package business;
 
 import data.User;
 import data.UserDao;
